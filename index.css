@@ -1,0 +1,115 @@
+html{
+    scroll-behavior: smooth;
+}
+#titleDiv{
+    text-align: left;
+}
+
+.icon-bar{
+    background-color: black;
+}
+
+#logo{
+    max-height: 15vh;
+}
+
+.nav{
+    text-align: right;
+}
+
+.links{
+    margin-top: 5vw;
+    padding: 0 4vw;
+    font-size: 150%;
+    color: rgb(79, 38, 131);
+}
+
+.active{
+    border-bottom: solid;
+    border-color: rgb(79, 38, 131);
+    border-bottom-width: 0.2vw;
+}
+
+#announcements{
+    color: white;
+    padding: 2vw;
+    font-size: 2vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+#landingImage{
+    max-width: 100%;
+    
+}
+
+#informationDiv{
+    padding:10vh;
+}
+
+
+.col-sm-4{
+    padding: 1vw;
+    text-align: center;
+}
+
+.col-sm-12{
+    padding: 2vw;
+    text-align: center;
+}
+
+#main{
+    color: rgb(79, 38, 131);
+    font-weight: bold;
+}
+
+#team{
+    color: white;
+    font-size: 5vh;
+    font-family: 'Oswald', sans-serif;
+}
+
+.col-sm-6{
+    text-align: center;
+    padding: 1vw;
+}
+
+#name{
+    color: black;
+    font-weight: bold;
+}
+
+#position{
+    color: rgb(79, 38, 131);
+    font-size: 2vw;
+}
+
+#teamBio{
+    color: black;
+    font-size: 1vw;
+}
+
+.page-footer{
+    background-color: rgb(37, 37, 37);
+    color: white;
+    height: 5vh;
+}
+.footer-copyright{
+    padding-top: 2vh;
+}
+
+#borderMedium{
+    background-color: rgb(79, 38, 131);
+    height: 15vh;
+    text-align: center;
+
+}
+#borderSmall{
+    background-color: rgb(79, 38, 131);
+    height: 10vh;
+    text-align: center;
+}
+#borderLarge{
+    background-color: rgb(79, 38, 131);
+    height: 20vh;
+    text-align: center;
+}
