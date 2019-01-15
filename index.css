@@ -88,6 +88,10 @@ html{
     font-size: 1vw;
 }
 
+#img{
+    padding: 0vw 1vw;
+}
+
 .page-footer{
     background-color: rgb(37, 37, 37);
     color: white;
