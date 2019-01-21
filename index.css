@@ -148,15 +148,17 @@ html{
 }
 #regular{
     background-color: white;
-    margin: 2vw;
+    margin: 1vw;
     border-radius: 0.5vw;
     height: 26vw;
-    text-align: center
+    text-align: center;
 }
 
 #fb{
-    max-width: 20vw;
+    border: solid;
     max-height: 26vw;
+  
+
 }
 #line{
     position: sticky;
@@ -209,6 +211,9 @@ html{
 
   @media screen and (max-width:1200px) {
     .dissapear {display:none}
+    #fb {
+        width: 100%;
+    }
 }
 
 * {box-sizing:border-box}
