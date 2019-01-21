@@ -57,7 +57,7 @@ html{
 }
 
 #informationDiv{
-    padding:10vh;
+    padding:7vh;
 }
 
 
@@ -76,6 +76,11 @@ html{
     font-weight: bold;
 }
 
+#about{
+    color: white;
+    font-size: 5vh;
+    font-family: 'Oswald', sans-serif;
+}
 #team{
     color: white;
     font-size: 5vh;
@@ -124,7 +129,7 @@ html{
 
 #borderMedium{
     background-color: rgb(79, 38, 131);
-    height: 17vh;
+    height: 20vh;
     text-align: center;
 
 }
