@@ -160,6 +160,52 @@ html{
     margin-top: 24vh;
 }
 
+#labelTop{
+    position: sticky;
+    color: rgb(79, 38, 131);
+    margin-top: 20vh;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+}
+#circle {
+    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    -webkit-border-radius: 1vw;
+    -moz-border-radius: 1vw;
+    border-radius: 1vw;
+    background: black;
+    margin-top: 23vh;
+  }
+
+  #eventBottom{
+      position: absolute;
+      background-color: rgba(78, 38, 131, 0.479);
+      margin-top: 27vh;
+      width: 10vw;
+      height: auto;
+      border-radius: 1vw;
+  }
+
+  #eventTop{
+    position: absolute;
+    background-color: rgba(78, 38, 131, 0.479);
+    margin-top: 5vh;
+    width: 10vw;
+    height: 9vw;
+    border-radius: 1vw;
+  }
+  #eventBottom p, #eventTop p{
+      padding: 0.3vw;
+      font-weight: bold;
+  }
+
+
+  @media screen and (max-width:1200px) {
+    .dissapear {display:none}
+}
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
